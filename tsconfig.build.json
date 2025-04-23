@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Base
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2024",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "incremental": true,
+
+    // Strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    // If transpiling
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    // If not transpiling
+    // "moduleResolution": "bundler",
+    // "module": "ESNext",
+    // "noEmit": true,
+
+    // If using react
+    // "lib": ["DOM", "DOM.Iterable", "ES2024"],
+
+    "lib": ["ES2024"],
+    "types": ["node"]
+
+    // If not using tsc
+    // "isolatedModules": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
