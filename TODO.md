@@ -3,5 +3,9 @@
 [ ] Integreate zod
 [ ] Integrate authzed (spiceDB)
 [ ] Integrate IaC (OpenTF)
-[ ] Integrate graphql
+[ ] Integrate graphql (gql.tada)
 [ ] Integrate express
+[ ] Integration db options
+[ ] Redis
+[ ] Mongo
+[ ] Cloud providers?
